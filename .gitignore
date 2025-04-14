@@ -1,0 +1,20 @@
+# Node modules
+node_modules/
+
+# Cypress videos and screenshots
+ui-tests/cypress/videos/
+ui-tests/cypress/screenshots/
+
+# Mochawesome JSONs (intermedios)
+ui-tests/cypress/reports/.jsons/
+
+# Reportes generados (opcional si son muy pesados)
+ui-tests/cypress/reports/*.html
+api-tests/report/*.html
+
+# Archivos temporales o del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env

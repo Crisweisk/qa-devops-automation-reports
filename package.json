@@ -1,0 +1,19 @@
+{
+  "name": "qa-devops-automation-reports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "api-test": "npx newman run api-tests/crud-api-tests.json -r cli,html,htmlextra --reporter-html-export api-tests/report/report.html",
+    "ui-test": "npx cypress run --config-file ui-tests/cypress.config.js",
+    "report-ui": "npx mochawesome-merge ui-tests/cypress/reports/.jsons/*.json | npx mochawesome-report-generator --reportDir ui-tests/cypress/reports --reportFilename index.html"
+  },
+  "keywords": [],
+  "author": "Cristian Camilo Delgado",
+  "license": "ISC",
+  "devDependencies": {
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
