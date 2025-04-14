@@ -28,20 +28,16 @@ jobs:
         run: |
           npx cypress run --config-file ui-tests/cypress.config.js
 
-      - name: Generate UI report (Mochawesome)
+      - name: ✅ Generate UI report (if exists)
         run: |
-          npx mochawesome-merge ui-tests/cypress/reports/.jsons/*.json | npx mochawesome-report-generator --reportDir ui-tests/cypress/reports --reportFilename index.html
+          if ls ui-tests/cypress/reports/.jsons/*.json 1> /dev/null 2>&1; then
+            npx mochawesome-merge ui-tests/cypress/reports/.jsons/*.json | npx mochawesome-report-generator --reportDir ui-tests/cypress/reports --reportFilename index.html
+          else
+            echo "⚠️ No JSON reports found. Skipping report generation."
+          fi
 
       - name: Upload UI report
         uses: actions/upload-artifact@v4
         with:
           name: ui-report
-          path: ui-tests/cypress/reports/index.html
-      - name: Check if mochawesome reports exist
-  run: |
-    if ls ui-tests/cypress/reports/.jsons/*.json 1> /dev/null 2>&1; then
-      npx mochawesome-merge ui-tests/cypress/reports/.jsons/*.json | npx mochawesome-report-generator --reportDir ui-tests/cypress/reports --reportFilename index.html
-    else
-      echo "⚠️ No JSON reports found. Skipping report generation."
-    fi
-
+          path: ui-tests/cypress/reports
