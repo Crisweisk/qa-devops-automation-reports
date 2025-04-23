@@ -103,7 +103,7 @@ Esto no representa un fallo del test como tal, sino un error del entorno.
 🚀 En búsqueda activa de su primer rol en QA Automation  
 💡 Apasionado por la disciplina, el aprendizaje continuo y la automatización de calidad.
 
-📬 Contacto: [LinkedIn](https://www.linkedin.com/in/Hyokenhi/) | GitHub: [@Crisweisk](https://github.com/Hyokenhi)
+📬 Contacto: [LinkedIn](https://www.linkedin.com/in/Hyokenhi/) | GitHub: [@Hyokenhi](https://github.com/Hyokenhi)
 
 ---
 
@@ -209,4 +209,4 @@ This is not a problem with the test itself, but with the unstable demo environme
 🚀 Actively seeking his first role in QA Automation  
 💡 Passionate about discipline, continuous learning, and quality automation.
 
-📬 Contact: [LinkedIn](https://www.linkedin.com/in/your-profile/) | GitHub: [@Crisweisk](https://github.com/Crisweisk)
+📬 Contact: [LinkedIn](https://www.linkedin.com/in/Hyokenhi/) | GitHub: [@Crisweisk](https://github.com/Hyokenhi)
