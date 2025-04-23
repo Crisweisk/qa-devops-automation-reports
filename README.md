@@ -103,7 +103,7 @@ Esto no representa un fallo del test como tal, sino un error del entorno.
 🚀 En búsqueda activa de su primer rol en QA Automation  
 💡 Apasionado por la disciplina, el aprendizaje continuo y la automatización de calidad.
 
-📬 Contacto: [LinkedIn](https://www.linkedin.com/in/cristian-delgado-6bb653233/) | GitHub: [@Crisweisk](https://github.com/Crisweisk)
+📬 Contacto: [LinkedIn](https://www.linkedin.com/in/Hyokenhi/) | GitHub: [@Crisweisk](https://github.com/Hyokenhi)
 
 ---
 
